@@ -212,12 +212,12 @@
 
  .box1{
     height: 100px;
-    width: 100%;
-    background-color: blue;
+    width: 60%;
+    background-color: rgb(5, 5, 71);
     margin-top: 20px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+      display: flex;
+    justify-content:space-between;
+    align-items: center;  
     
  }
  .content1 p{
@@ -225,7 +225,74 @@
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    padding-top: 15px;  
+ }
+
+ .content2 p{
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 15px;  
+ }
+ .centrebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .work{
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+    margin-top: 15px;
+ }
+
+ .work h1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: 50px;
+    color: rgb(5, 5, 71);
     
+ }
+ .work ul{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+ }
+
+ .work2{
+    margin-top: 15px;
+ }
+
+ .work2 h1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: 50px;
+    color: rgb(5, 5, 71);
     
+ }
+ .work2 ul{
     
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+ }
+
+.last{
+    margin-top: 10px;
+}
+
+ .last h1{
+    color: rgb(5, 5, 71);
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+
  }
